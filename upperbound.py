@@ -4,11 +4,7 @@ import pandas as pd
 import math
 import csv
 
-#creata your .csv database
-'''csv_filename = input("Type a name for your .csv file(database)\n")
-with open(str(csv_filename) + '.csv', 'wb') as csvfile:
-    filewriter = csv.writer(csvfile, delimiter=',',
-                            quotechar='|', quoting=csv.QUOTE_MINIMAL)'''
+
 csv_filename = 'mydb'
 # Creating empty arrays for each advertisement
 Ad1 = []
